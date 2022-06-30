@@ -38,7 +38,7 @@
             <objects>
                 <viewController id="wgo-re-Kcg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iez-Wh-elF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homePage" translatesAutoresizingMaskIntoConstraints="NO" id="S8u-tS-6hF">
@@ -477,7 +477,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1785.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="environmentTitle" translatesAutoresizingMaskIntoConstraints="NO" id="t1T-bx-hTg">
-                                                <rect key="frame" x="24" y="52" width="367" height="190"/>
+                                                <rect key="frame" x="21" y="8" width="367" height="190"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rod-VG-bQs">
@@ -487,18 +487,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJF-x3-xIG">
-                                                <rect key="frame" x="12" y="203" width="390" height="228"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJF-x3-xIG">
+                                                <rect key="frame" x="21" y="144" width="251" height="312"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">“Women are increasingly being seen as more vulnerable than men to the impacts of climate change, mainly because they represent the majority of the world's poor and are proportionally more dependent on threatened natural resources.”(Osman-Elasha)</string>
+                                                <string key="text">Women are increasingly being seen as more vulnerable than men to the impacts of climate change, mainly because they represent the majority of the world's poor and are proportionally more dependent on threatened natural resources.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYv-cI-Kge">
-                                                <rect key="frame" x="150" y="203" width="115" height="27"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -556,12 +549,8 @@
                                                     <segue destination="TO5-8N-1x0" kind="presentation" modalPresentationStyle="fullScreen" id="5Cd-Lh-LKd"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="womannnpantint" translatesAutoresizingMaskIntoConstraints="NO" id="NId-WV-Dnx">
-                                                <rect key="frame" x="49" y="421" width="288" height="153"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIK-Tc-h3F">
-                                                <rect key="frame" x="24" y="52" width="98" height="24"/>
+                                                <rect key="frame" x="18" y="20" width="98" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="Go home">
@@ -573,6 +562,10 @@
                                                     <segue destination="wgo-re-Kcg" kind="show" id="cvD-y6-4qU"/>
                                                 </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="womannnpantint" translatesAutoresizingMaskIntoConstraints="NO" id="NId-WV-Dnx">
+                                                <rect key="frame" x="186" y="408" width="205" height="121"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97254908080000002" green="0.99607843159999998" blue="0.80392158030000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -831,9 +824,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="pKQ-nH-K7g"/>
         <segue reference="TWy-yR-uOj"/>
         <segue reference="d7M-VN-FA8"/>
-        <segue reference="cvD-y6-4qU"/>
+        <segue reference="f5X-1n-60m"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
