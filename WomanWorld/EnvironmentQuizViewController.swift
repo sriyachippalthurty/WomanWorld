@@ -8,16 +8,37 @@
 import UIKit
 
 class EnvironmentQuizViewController: UITableViewController {
-
+    @IBOutlet weak var enviromentAnswer: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    
+    @IBAction func genderButton(_ sender: Any) {
+        enviromentAnswer.text = "You are incorrect, try again."
+    }
+    
+    @IBAction func childButton(_ sender: Any) {
+        enviromentAnswer.text = "You are incorrect, try again."
+    }
+    
+    @IBAction func maternalButton(_ sender: Any) {
+        enviromentAnswer.text = "You are incorrect, try again."
+    }
+    @IBAction func allOfTheAbove(_ sender: Any) {
+        enviromentAnswer.text = "You are correct, all of these issues stem from climate change"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     // MARK: - Table view data source
 
