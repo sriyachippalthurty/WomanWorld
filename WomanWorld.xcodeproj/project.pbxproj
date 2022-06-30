@@ -87,7 +87,6 @@
 		BD374606286B86C500D3B2F4 = {
 			isa = PBXGroup;
 			children = (
-				BD46AC02286E1A9800E0E5C8 /* ReproductiveViewController.swift */,
 				BD374611286B86C500D3B2F4 /* WomanWorld */,
 				BD374628286B86C600D3B2F4 /* WomanWorldTests */,
 				BD374632286B86C600D3B2F4 /* WomanWorldUITests */,
@@ -112,6 +111,7 @@
 				BD374612286B86C500D3B2F4 /* AppDelegate.swift */,
 				BD374614286B86C500D3B2F4 /* SceneDelegate.swift */,
 				BD374616286B86C500D3B2F4 /* ViewController.swift */,
+				BD46AC02286E1A9800E0E5C8 /* ReproductiveViewController.swift */,
 				BD374618286B86C500D3B2F4 /* Main.storyboard */,
 				82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */,
 				BD46AC00286CCA4200E0E5C8 /* AutoChangeScript.swift */,
