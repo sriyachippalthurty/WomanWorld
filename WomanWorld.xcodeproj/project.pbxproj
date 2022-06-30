@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B4F19D286D388E009CF53B /* EducationQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */; };
 		BD374613286B86C500D3B2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374612286B86C500D3B2F4 /* AppDelegate.swift */; };
 		BD374615286B86C500D3B2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374614286B86C500D3B2F4 /* SceneDelegate.swift */; };
 		BD374617286B86C500D3B2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374616286B86C500D3B2F4 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationQuizViewController.swift; sourceTree = "<group>"; };
 		BD37460F286B86C500D3B2F4 /* WomanWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WomanWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD374612286B86C500D3B2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD374614286B86C500D3B2F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				BD374614286B86C500D3B2F4 /* SceneDelegate.swift */,
 				BD374616286B86C500D3B2F4 /* ViewController.swift */,
 				BD374618286B86C500D3B2F4 /* Main.storyboard */,
+				82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */,
 				BD46AC00286CCA4200E0E5C8 /* AutoChangeScript.swift */,
 				BD37461B286B86C600D3B2F4 /* Assets.xcassets */,
 				BD37461D286B86C600D3B2F4 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD374617286B86C500D3B2F4 /* ViewController.swift in Sources */,
+				82B4F19D286D388E009CF53B /* EducationQuizViewController.swift in Sources */,
 				BD46AC01286CCA4200E0E5C8 /* AutoChangeScript.swift in Sources */,
 				BD374613286B86C500D3B2F4 /* AppDelegate.swift in Sources */,
 				BD374615286B86C500D3B2F4 /* SceneDelegate.swift in Sources */,

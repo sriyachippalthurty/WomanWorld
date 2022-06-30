@@ -91,14 +91,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRq-zk-N96">
-                                <rect key="frame" x="30" y="532" width="339" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Around the world, 129 million girls are out of school. Barriers to girls’ education – like poverty, child marriage and gender-based violence – vary among countries and communities. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="e43-Z0-RZ8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -372,10 +364,10 @@
             </objects>
             <point key="canvasLocation" x="1588" y="69"/>
         </scene>
-        <!--View Controller-->
+        <!--Education Quiz View Controller-->
         <scene sceneID="Ss2-KT-3na">
             <objects>
-                <viewController id="VNl-ni-4VE" sceneMemberID="viewController">
+                <viewController id="VNl-ni-4VE" customClass="EducationQuizViewController" customModule="WomanWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="enJ-9p-djz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -443,6 +435,10 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Seventynine:" destination="VNl-ni-4VE" eventType="touchUpInside" id="4HY-1r-Sfb"/>
+                                    <action selector="button:" destination="VNl-ni-4VE" eventType="touchUpInside" id="8DU-kb-p68"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMp-fD-lKu">
                                 <rect key="frame" x="79" y="445" width="257" height="49"/>
@@ -453,6 +449,11 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Button:" destination="VNl-ni-4VE" eventType="touchUpInside" id="aA7-4x-rM1"/>
+                                    <action selector="Fiftythree:" destination="VNl-ni-4VE" eventType="touchUpInside" id="gEQ-Ez-fJR"/>
+                                    <action selector="button:" destination="atZ-hH-sn0" eventType="touchUpInside" id="X6P-JD-Nb5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYp-5z-Pmz">
                                 <rect key="frame" x="79" y="519" width="257" height="49"/>
@@ -463,11 +464,17 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Twentytwo:" destination="VNl-ni-4VE" eventType="touchUpInside" id="Dhx-Uf-1Cf"/>
+                                    <action selector="Twentytwo:forEvent:" destination="VNl-ni-4VE" eventType="touchUpInside" id="kzC-Fu-LHl"/>
+                                    <action selector="button:" destination="VNl-ni-4VE" eventType="touchUpInside" id="ZPR-PA-2aE"/>
+                                    <action selector="hello:" destination="VNl-ni-4VE" eventType="touchUpInside" id="kru-9I-o8O"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are correct, 53% of children out of school are girls." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEQ-p0-keT">
-                                <rect key="frame" x="49" y="633" width="321" height="70"/>
+                                <rect key="frame" x="47" y="620" width="321" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -476,10 +483,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="pI6-Fm-QiW"/>
+                    <connections>
+                        <outlet property="educationAnswer" destination="IEQ-p0-keT" id="KCK-jR-C8X"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ojz-IB-ENY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="atZ-hH-sn0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2286.9565217391305" y="68.973214285714278"/>
+            <point key="canvasLocation" x="2190" y="135"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xU7-Xn-EZg">
@@ -574,7 +585,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XLR-ak-ZrW"/>
         <segue reference="f5X-1n-60m"/>
     </inferredMetricsTieBreakers>
     <resources>
