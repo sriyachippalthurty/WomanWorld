@@ -11,7 +11,7 @@ class AutoChangeScript: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             
             self.performSegue(withIdentifier: "autoChangeScreens", sender: self)
         }

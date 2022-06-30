@@ -17,6 +17,7 @@
 		BD37462A286B86C600D3B2F4 /* WomanWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374629286B86C600D3B2F4 /* WomanWorldTests.swift */; };
 		BD374634286B86C600D3B2F4 /* WomanWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374633286B86C600D3B2F4 /* WomanWorldUITests.swift */; };
 		BD374636286B86C600D3B2F4 /* WomanWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374635286B86C600D3B2F4 /* WomanWorldUITestsLaunchTests.swift */; };
+		BD3C325F286E0642007F4EAF /* EnvironmentQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C325E286E0642007F4EAF /* EnvironmentQuizViewController.swift */; };
 		BD46AC01286CCA4200E0E5C8 /* AutoChangeScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46AC00286CCA4200E0E5C8 /* AutoChangeScript.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		BD37462F286B86C600D3B2F4 /* WomanWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WomanWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD374633286B86C600D3B2F4 /* WomanWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanWorldUITests.swift; sourceTree = "<group>"; };
 		BD374635286B86C600D3B2F4 /* WomanWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD3C325E286E0642007F4EAF /* EnvironmentQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentQuizViewController.swift; sourceTree = "<group>"; };
 		BD46AC00286CCA4200E0E5C8 /* AutoChangeScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoChangeScript.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 		BD374611286B86C500D3B2F4 /* WomanWorld */ = {
 			isa = PBXGroup;
 			children = (
+				BD3C325E286E0642007F4EAF /* EnvironmentQuizViewController.swift */,
 				BD374612286B86C500D3B2F4 /* AppDelegate.swift */,
 				BD374614286B86C500D3B2F4 /* SceneDelegate.swift */,
 				BD374616286B86C500D3B2F4 /* ViewController.swift */,
@@ -269,6 +272,7 @@
 				BD46AC01286CCA4200E0E5C8 /* AutoChangeScript.swift in Sources */,
 				BD374613286B86C500D3B2F4 /* AppDelegate.swift in Sources */,
 				BD374615286B86C500D3B2F4 /* SceneDelegate.swift in Sources */,
+				BD3C325F286E0642007F4EAF /* EnvironmentQuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UWH63VJYU9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WomanWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -472,6 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UWH63VJYU9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WomanWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

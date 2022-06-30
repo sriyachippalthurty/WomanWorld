@@ -21,13 +21,14 @@ class EducationQuizViewController: UIViewController {
     }
     
 
-    @IBAction func Twentytwo(_ sender: Any) {
+   @IBAction func Twentytwo(_ sender: Any) {
         educationAnswer.text = "You are incorrect, 53% of children out of school are girls."
     }
     
     
     @IBAction func Seventynine(_ sender: Any) {
         educationAnswer.text = "You are incorrect, 53% of children out of school are girls."
+        
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
