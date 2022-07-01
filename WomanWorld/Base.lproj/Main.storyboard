@@ -39,7 +39,7 @@
             <objects>
                 <viewController id="wgo-re-Kcg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iez-Wh-elF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homePage" translatesAutoresizingMaskIntoConstraints="NO" id="S8u-tS-6hF">
@@ -169,6 +169,14 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPu-S4-6jy">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1900"/>
                                         <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mno-Kq-qbZ">
+                                                <rect key="frame" x="21" y="164" width="364" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">n 1970, Jane Roe  filed a lawsuit against Henry Wade, the district attorney of Dallas County, Texas, challenging a Texas law making abortion illegal except by a doctor’s orders to save a woman’s life. In her lawsuit, Roe alleged that the state laws were unconstitutionally vague and abridged her right of personal privacy, protected by the First, Fourth, Fifth, Ninth, and Fourteenth Amendments.</string>
+                                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNc-r5-cI3">
                                                 <rect key="frame" x="91" y="1775" width="233" height="64"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -199,6 +207,56 @@
                                                 <rect key="frame" x="21" y="10" width="373" height="189"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-01 at 7.29.41 AM" translatesAutoresizingMaskIntoConstraints="NO" id="pGQ-n0-GsK">
+                                                <rect key="frame" x="60" y="498" width="263" height="178"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3Z-os-KVx">
+                                                <rect key="frame" x="29" y="664" width="354" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The Due Process Clause of the Fourteenth Amendment protects against state action the right to privacy, and a woman’s right to choose to have an abortion falls within that right to privacy.</string>
+                                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saT-sF-xWj">
+                                                <rect key="frame" x="29" y="1092" width="354" height="275"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">In the first trimester of pregnancy, the state may not regulate the abortion decision; only the pregnant woman and her attending physician can make that decision. In the second trimester, the state may impose regulations on abortion that are reasonably related to maternal health. In the third trimester, once the fetus reaches the point of “viability,” a state may regulate abortions or prohibit them entirely, so long as the laws contain exceptions for cases when abortion is necessary to save the life or health of the mother.</mutableString>
+                                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-01 at 7.34.18 AM" translatesAutoresizingMaskIntoConstraints="NO" id="s6u-ge-Sm0">
+                                                <rect key="frame" x="65" y="886" width="285" height="168"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkk-Xm-BOr">
+                                                <rect key="frame" x="16" y="1648" width="380" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Source: UN Women In the Shadow of Climate Change">
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                    <color key="baseBackgroundColor" red="0.63959452640000003" green="0.88573567710000001" blue="0.65374256239999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sign:" destination="Eyj-su-i46" eventType="touchUpInside" id="sDH-Fo-xdc"/>
+                                                    <action selector="visual:" destination="Eyj-su-i46" eventType="touchUpInside" id="d6o-zI-H85"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bY7-fU-nqQ">
+                                                <rect key="frame" x="14" y="1553" width="380" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Source: UN Women In the Shadow of Climate Change">
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                    <color key="baseBackgroundColor" red="0.63959452640000003" green="0.88573567710000001" blue="0.65374256239999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sign:" destination="Eyj-su-i46" eventType="touchUpInside" id="xaq-Ei-aXv"/>
+                                                    <action selector="visual:" destination="Eyj-su-i46" eventType="touchUpInside" id="z4k-hO-fka"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.98039215800000001" green="0.89411771299999998" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -966,16 +1024,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="F1W-ey-4c6"/>
+        <segue reference="QFq-pQ-G8O"/>
         <segue reference="hM8-05-nf9"/>
-        <segue reference="d7M-VN-FA8"/>
-        <segue reference="cvD-y6-4qU"/>
+        <segue reference="7v1-sR-nnu"/>
+        <segue reference="XTB-wR-Whf"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
         <image name="Screen Shot 2022-06-28 at 2.34.08 PM" width="431" height="786"/>
         <image name="Screen Shot 2022-06-30 at 8.14.49 PM" width="394" height="105"/>
         <image name="Screen Shot 2022-06-30 at 8.26.08 PM" width="474" height="114"/>
+        <image name="Screen Shot 2022-07-01 at 7.29.41 AM" width="454" height="337"/>
+        <image name="Screen Shot 2022-07-01 at 7.34.18 AM" width="540" height="326"/>
         <image name="WOMANWORLD REAL CANVA" width="1080" height="1920"/>
         <image name="Woman-Teacher-With-Female-College-Students-Building-Machine-In-Science-Robotics-Or-Engineering-Class-1133836360_2124x1416" width="2048" height="1365"/>
         <image name="enviQuiz" width="810" height="1440"/>
