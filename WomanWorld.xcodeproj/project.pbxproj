@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82194650286E894F00107D8B /* EnviromentTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219464F286E894F00107D8B /* EnviromentTextViewController.swift */; };
+		828DF582286E96DA003B3A8C /* EducationTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DF581286E96DA003B3A8C /* EducationTextViewController.swift */; };
 		82B4F19D286D388E009CF53B /* EducationQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */; };
 		BD374613286B86C500D3B2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374612286B86C500D3B2F4 /* AppDelegate.swift */; };
 		BD374615286B86C500D3B2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD374614286B86C500D3B2F4 /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		8219464F286E894F00107D8B /* EnviromentTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentTextViewController.swift; sourceTree = "<group>"; };
+		828DF581286E96DA003B3A8C /* EducationTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTextViewController.swift; sourceTree = "<group>"; };
 		82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationQuizViewController.swift; sourceTree = "<group>"; };
 		BD37460F286B86C500D3B2F4 /* WomanWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WomanWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD374612286B86C500D3B2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				BD374616286B86C500D3B2F4 /* ViewController.swift */,
 				BD46AC02286E1A9800E0E5C8 /* ReproductiveViewController.swift */,
 				BD374618286B86C500D3B2F4 /* Main.storyboard */,
+				828DF581286E96DA003B3A8C /* EducationTextViewController.swift */,
 				82B4F19C286D388D009CF53B /* EducationQuizViewController.swift */,
 				BD46AC00286CCA4200E0E5C8 /* AutoChangeScript.swift */,
 				BD37461B286B86C600D3B2F4 /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 				BD374615286B86C500D3B2F4 /* SceneDelegate.swift in Sources */,
 				BD46AC03286E1A9800E0E5C8 /* ReproductiveViewController.swift in Sources */,
 				BD3C325F286E0642007F4EAF /* EnvironmentQuizViewController.swift in Sources */,
+				828DF582286E96DA003B3A8C /* EducationTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
