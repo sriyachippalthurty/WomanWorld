@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21179.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21169.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -166,8 +165,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ElE-nP-zNP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPu-S4-6jy">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1900"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bPu-S4-6jy">
+                                        <rect key="frame" x="0.0" y="-251" width="414" height="1900"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mno-Kq-qbZ">
                                                 <rect key="frame" x="21" y="164" width="364" height="275"/>
@@ -177,19 +176,6 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNc-r5-cI3">
-                                                <rect key="frame" x="91" y="1775" width="233" height="64"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="gray" title="Take Quiz">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
-                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.77003623450000003" green="0.65814291479999998" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <segue destination="xEs-Ae-gkT" kind="presentation" modalPresentationStyle="fullScreen" id="QFq-pQ-G8O"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzq-qX-kE0">
                                                 <rect key="frame" x="29" y="21" width="98" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -222,7 +208,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saT-sF-xWj">
                                                 <rect key="frame" x="29" y="1092" width="354" height="275"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">In the first trimester of pregnancy, the state may not regulate the abortion decision; only the pregnant woman and her attending physician can make that decision. In the second trimester, the state may impose regulations on abortion that are reasonably related to maternal health. In the third trimester, once the fetus reaches the point of “viability,” a state may regulate abortions or prohibit them entirely, so long as the laws contain exceptions for cases when abortion is necessary to save the life or health of the mother.</mutableString>
+                                                <string key="text">In the first trimester of pregnancy, the state may not regulate the abortion decision; only the pregnant woman and her attending physician can make that decision. In the second trimester, the state may impose regulations on abortion that are reasonably related to maternal health. In the third trimester, once the fetus reaches the point of “viability,” a state may regulate abortions or prohibit them entirely, so long as the laws contain exceptions for cases when abortion is necessary to save the life or health of the mother.</string>
                                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -235,7 +221,7 @@
                                                 <rect key="frame" x="16" y="1648" width="380" height="69"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Source: UN Women In the Shadow of Climate Change">
+                                                <buttonConfiguration key="configuration" style="filled" title="Pledge to keep abortion rights">
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                     <color key="baseBackgroundColor" red="0.63959452640000003" green="0.88573567710000001" blue="0.65374256239999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
@@ -248,13 +234,39 @@
                                                 <rect key="frame" x="14" y="1553" width="380" height="69"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Source: UN Women In the Shadow of Climate Change">
+                                                <buttonConfiguration key="configuration" style="filled" title="Planned Parrenthood">
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                     <color key="baseBackgroundColor" red="0.63959452640000003" green="0.88573567710000001" blue="0.65374256239999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="sign:" destination="Eyj-su-i46" eventType="touchUpInside" id="xaq-Ei-aXv"/>
                                                     <action selector="visual:" destination="Eyj-su-i46" eventType="touchUpInside" id="z4k-hO-fka"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdh-hD-L9N">
+                                                <rect key="frame" x="17" y="1455" width="380" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Sign to protect abortion rights">
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                    <color key="baseBackgroundColor" red="0.63959452640000003" green="0.88573567710000001" blue="0.65374256239999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sign:" destination="Eyj-su-i46" eventType="touchUpInside" id="EE1-Ot-cCJ"/>
+                                                    <action selector="visual:" destination="Eyj-su-i46" eventType="touchUpInside" id="BdT-XN-3Af"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNc-r5-cI3">
+                                                <rect key="frame" x="87" y="1794" width="233" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Take Quiz">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.77003623450000003" green="0.65814291479999998" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="xEs-Ae-gkT" kind="presentation" modalPresentationStyle="fullScreen" id="QFq-pQ-G8O"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1024,6 +1036,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="F1W-ey-4c6"/>
         <segue reference="QFq-pQ-G8O"/>
         <segue reference="hM8-05-nf9"/>
         <segue reference="7v1-sR-nnu"/>
@@ -1047,7 +1060,7 @@
         <image name="reproQuiz" width="1080" height="1920"/>
         <image name="womannnpantint" width="275" height="183"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
