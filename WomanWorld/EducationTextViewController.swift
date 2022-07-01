@@ -14,10 +14,11 @@ class EducationTextViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
 
-    @IBAction func un(_ sender: Any) {
+    @IBAction func malala(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://malala.org/")! as URL, options: [:], completionHandler: nil)
     }
+    
     /*
     // MARK: - Navigation
 
