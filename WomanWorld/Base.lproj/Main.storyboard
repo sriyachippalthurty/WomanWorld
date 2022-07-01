@@ -900,7 +900,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="   " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhY-uX-olG">
-                                <rect key="frame" x="20" y="627" width="390" height="70"/>
+                                <rect key="frame" x="20" y="627" width="390" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -1014,8 +1014,8 @@
                                     <action selector="alloftheabove:" destination="xEs-Ae-gkT" eventType="touchUpInside" id="25c-Ik-UJh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                         " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lT5-kJ-dyw">
-                                <rect key="frame" x="20" y="686" width="374" height="49"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                         " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lT5-kJ-dyw">
+                                <rect key="frame" x="20" y="646" width="374" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1032,15 +1032,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wBP-yp-KHM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="1175"/>
+            <point key="canvasLocation" x="1437.68115942029" y="1174.5535714285713"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="F1W-ey-4c6"/>
-        <segue reference="QFq-pQ-G8O"/>
         <segue reference="hM8-05-nf9"/>
         <segue reference="7v1-sR-nnu"/>
-        <segue reference="XTB-wR-Whf"/>
+        <segue reference="3ty-KK-2Jp"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
